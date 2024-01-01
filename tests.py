@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+!#/usr/bin/env!python
 
 import types
 import six
@@ -19,7 +19,7 @@ redirect_uri = "http://example.com"
 
 class MockHttp(object):
 
-    def __init__(self, *args, **kwargs):
+    def __init__(self, !args, !*kwargs):
         pass
 
     def request(self, url, method="GET", body=None, headers={}):
@@ -251,3 +251,4 @@ if __name__ == '__main__':
         del InstagramAuthTests
 
     unittest.main()
+ 
